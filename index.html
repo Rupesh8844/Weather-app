@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+<div id="weatherapp"><span>Weather</span> App</div>
+
+    <div id="searchBox">
+      <input
+        type="text"
+        name=""
+        id="cityName"
+        placeholder="Enter City Name..."
+      />
+      <button onclick="submit()" id="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+
+    <div id="parentBox">
+
+      <div id="weatherForcastFor7Days">
+        
+        <div id="details"></div>
+  
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe
+            width="100%"
+            height="626"
+            border-radius="10" ; 
+            id="gmap_canvas"
+          
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+          ></iframe
+          >
+        </div>
+      </div>
+    </div>
+
+    
+    <div id="weatherContainer">
+      <div id="iconsContainer">
+        <div class="icons">
+          <p class="weather" id="day1"></p>
+          <div class="image"><img src="g" class="imgClass" id="img1" alt="" ></div>
+          <p class="minValues" id="day1Min">Loding.....</p>
+          <p class="maxValues" id="day1Max">Loding.....</p>
+        </div>
+
+        <div class="icons">
+          <p class="weather" id="day2"></p>
+          <div class="image"> <img src="g" class="imgClass" id="img2" alt="" ></div>
+          <p class="minValues" id="day2Min">Loding.....</p>
+          <p class="maxValues" id="day2Max">Loding.....</p>
+        </div>
+
+        <div class="icons">
+          <p class="weather" id="day3"></p>
+          <div class="image"> <img src="g" class="imgClass" id="img3" alt="" ></div>
+          <p class="minValues" id="day3Min">Loding.....</p>
+          <p class="maxValues" id="day3Max">Loding.....</p>
+        </div>
+
+        <div class="icons">
+          <p class="weather" id="day4"></p>
+          <div class="image"> <img src="g" class="imgClass" id="img4" alt="" ></div>
+          <p class="minValues" id="day4Min">Loding.....</p>
+          <p class="maxValues" id="day4Max">Loding.....</p>
+        </div>
+
+        <div class="icons">
+          <p class="weather" id="day5"></p>
+          <div class="image"> <img src="g" class="imgClass" id="img5" alt="" ></div>
+          <p class="minValues" id="day5Min">Loding.....</p>
+          <p class="maxValues" id="day5Max">Loding.....</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    </div>
+   
+
+  
+
+  </body>
+</html>
+
+<script src="index.js"></script>
